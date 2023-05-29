@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2023-05-29 22:45:17
+# 客户端：Clash
+# 创建时间：2023-05-29 22:47:11
 # 使用模版：V2RaySE 默认模版
-# 节点数量：49
+# 节点数量：48
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -42,7 +41,6 @@ proxies:
   - {"name":"🇳🇱_NL_荷兰","type":"vmess","server":"154.85.1.86","port":49506,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸_US_美国_9","type":"vmess","server":"170.178.179.189","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/031730091420"}}
   - {"name":"🇺🇸_US_美国_10","type":"ss","server":"54.189.216.64","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国->🇳🇱_NL_荷兰_3","type":"vless","server":"ashcan.aurorainiceland.com","port":443,"uuid":"9c9f7230-c8ff-44d2-93f2-a1febbc23767","tls":true,"servername":"ashcan.aurorainiceland.com","network":"ws","ws-opts":{"path":"/nimws"}}
   - {"name":"🇺🇸_US_美国->🇬🇧_GB_英国","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
   - {"name":"🇺🇸_US_美国_11","type":"vmess","server":"142.0.133.53","port":50044,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳_CN_中国->🇭🇰_HK_香港","type":"ss","server":"1-hk-2.123445566.xyz","port":15212,"password":"1ac62a6b-305b-46ff-83a9-637ee16cde6c","cipher":"chacha20-ietf-poly1305"}
@@ -97,7 +95,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
       - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇺🇸_US_美国_11
       - 🇨🇳_CN_中国->🇭🇰_HK_香港
@@ -152,7 +149,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
       - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇺🇸_US_美国_11
       - 🇨🇳_CN_中国->🇭🇰_HK_香港
@@ -207,7 +203,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
       - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇺🇸_US_美国_11
       - 🇨🇳_CN_中国->🇭🇰_HK_香港
@@ -261,7 +256,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
       - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇺🇸_US_美国_11
       - 🇨🇳_CN_中国->🇭🇰_HK_香港
@@ -315,7 +309,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
       - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇺🇸_US_美国_11
       - 🇨🇳_CN_中国->🇭🇰_HK_香港
@@ -369,7 +362,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
       - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇺🇸_US_美国_11
       - 🇨🇳_CN_中国->🇭🇰_HK_香港
@@ -440,7 +432,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
       - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇺🇸_US_美国_11
       - 🇨🇳_CN_中国->🇭🇰_HK_香港
